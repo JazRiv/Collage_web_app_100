@@ -1,0 +1,49 @@
+body{
+background-color: rgb(208, 209, 201);
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#camera{
+    width: 300px;
+    height: 300px;
+    border: 4px solid darkcyan ;
+}
+
+button{
+    background: darkcyan;
+    color: rgb(0, 0, 0);  
+    border-color:darkcyan ;
+    width: 150px;
+    height: 30;
+    font-size: 19;
+}
+
+img{
+    width: 40%;
+}
+
+img:hover{
+    border-radius: 140px; /*border-radius: px;*/
+    padding: 1%;
+    box-shadow: 0 6px 8px 0 rgb(0, 0, 0);
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#texbox{
+    background-color: rgb(208, 209, 201);
+    color: rgb(208, 209, 201);
+}

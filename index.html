@@ -1,0 +1,44 @@
+<html>
+    <head>
+       <title>Mi Aplicación de Selfies</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+ 
+<body>
+    <center>
+    <div class="container">
+    
+        <h1>Collage App</h1>
+        <hr>
+        <h4>Después de dar una orden de voz, haz click en permitir</h4>
+    </div>
+
+        <div class="form-group">
+            <h3>Di "whisky" para tomar tus selfies y hacer un collage</h3>
+            <text id="textbox" readonly="true"></text>
+        </div>
+
+        <button onclick="start()">start</button>
+        <p>Presionar el boton</p>
+
+        <label>Cámara: </label>
+        <div id="camera"></div>
+        <br>
+        <label>Tus fotos apareceran a aqui:</label>
+        <div id="result"></div>
+        
+    </center>
+    <div class="copy-right_footer">Jazmin D. Rivas</div>
+    
+   
+</body> 
+<script src="main.js"></script>
+</html>
