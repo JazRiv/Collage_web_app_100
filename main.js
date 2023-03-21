@@ -14,7 +14,7 @@ reconocimiento.onresult = function(evento){
     hablar(texto_detectado)
     if (texto_detectado.toLowerCase() == "whisky"){
         Webcam.attach(camara);
-        hablar("tomando selfie ahora");
+        hablar("Selfie lista");
         setTimeout(tomar_foto, 1000);
     }
 }
